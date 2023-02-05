@@ -8,6 +8,7 @@ use Laravel\Telescope\Telescope;
 use Laravel\Telescope\TelescopeApplicationServiceProvider;
 
 //本番環境では使用不可。
+
 class TelescopeServiceProvider extends TelescopeApplicationServiceProvider
 {
     /**
