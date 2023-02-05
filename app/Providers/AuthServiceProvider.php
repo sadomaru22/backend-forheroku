@@ -39,7 +39,7 @@ class AuthServiceProvider extends ServiceProvider
                 ->subject(Lang::get('Reset Password Notification'))
                 ->greeting(
                     Lang::get(
-                        'You are receiving this email because we received a password reset request for your account.',
+                        'You are receiving this email because we received a password reset request for your account..',
                     ),
                 )
                 ->line(
